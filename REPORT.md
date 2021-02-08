@@ -11,18 +11,38 @@
 
 В качестве тестовых данных использовались данные [Generated credit cards from MasterCard](https://www.getcreditcardnumbers.com/generated-credit-card-numbers)
 
-- MasterCard,5440623093169379 - OK
-- MasterCard,5579077180522680 - OK
-- MasterCard,5486452701353794 - OK
-- MasterCard,5217254169948040 - OK
-- MasterCard,5274458324094158 - OK
-- MasterCard,5106561760265051 - OK
-- MasterCard,5431475342854439 - OK
-- MasterCard,5256424865926424 - OK
-- MasterCard,5542534659204251 - OK
-- MasterCard,5310865837764596 - OK
+- American Express, 342769013816514 - FAIL
+- American Express, 345784320846986 - FAIL
+- American Express, 348217653600115 - FAIL
+- American Express, 376109720302525 - FAIL
 
-Тестирование производилось в следующем окружении:
+  
+- MasterCard, 5274458324094158 - OK
+- MasterCard, 5106561760265051 - OK
+- MasterCard, 5431475342854439 - OK
+- MasterCard, 5256424865926424 - OK
+  
+
+- Diners Club, 36577581109449 - FAIL
+- Diners Club, 36488125269402 - FAIL
+- Diners Club, 30239628506857 - FAIL
+- Diners Club, 30367673545676 - FAIL
+
+
+- Visa, 4024007125975622 - OK
+- Visa, 4024007180109612 - OK
+- Visa, 4024007167224483 - OK
+- Visa, 4532482539518794 - OK
+
+
+- MIR, 2201382000000013 - OK
+- MIR, 2201382000000015 - FAIL
+- MIR, 2201382000000018 - FAIL
+- MIR, 2201382000000023 - FAIL
+
+
+
+### Тестирование производилось в следующем окружении:
 
 - Windows 10, 64
 - версия Java 11.0.10
