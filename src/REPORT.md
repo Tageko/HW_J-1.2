@@ -1,16 +1,18 @@
 # Отчёт о тестировании "Реализация функциональности валидации номера банковской карты"
 
 ## Краткое описание
-Дата начала 04.02.2021 - Дата окончания 05.02.2021 было проведено Функциональное тестирование приложения "Credit Card Number Validator".
+Дата начала 04.02.2021 - Дата окончания 09.02.2021 было проведено Функциональное тестирование приложения "Credit Card Number Validator".
 
-На тестирование затрачено: 5 часов
+На тестирование затрачено: 8 часов
 
-В результате тестирования дефекты не выявлены
+В результате тестирования дефекты (см. Issues): 
+1. БАГ при проверке карт [AMEX](https://github.com/Tageko/HW_J-1.2/issues/1#issue-804357892) 
+2. БАГ при проверке карт [Diners Club](https://github.com/Tageko/HW_J-1.2/issues/2#issue-804361547)
 
 ## Описание процесса тестирования
 
-В качестве тестовых данных использовались данные [Generated credit cards from MasterCard](https://www.getcreditcardnumbers.com/generated-credit-card-numbers), [Тестовые карты](https://developer.rbk.money/docs/payments/refs/testcards/), выдуманные данные
-пше
+В качестве тестовых данных использовались данные [Generated credit cards](https://www.getcreditcardnumbers.com/generated-credit-card-numbers), [Тестовые карты - MIR, первая карта](https://developer.rbk.money/docs/payments/refs/testcards/), 3 выдуманных номера карт MIR
+
 
 - American Express, 342769013816514 - FAIL
 - American Express, 345784320846986 - FAIL
@@ -37,9 +39,9 @@
 
 
 - MIR, 2201382000000013 - OK
-- MIR, 2201382000000015 - FAIL
-- MIR, 2201382000000018 - FAIL
-- MIR, 2201382000000023 - FAIL
+- MIR (not real), 2201382000000015 - FAIL
+- MIR (not real), 2201382000000018 - FAIL
+- MIR (not real), 2201382000000023 - FAIL
 
 
 
