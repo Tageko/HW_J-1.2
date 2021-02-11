@@ -12,8 +12,9 @@
 ## Описание процесса тестирования
 
 В качестве тестовых данных использовались:
-- код реализующий функциональность валидации номера банковской карты
-- данные [Generated credit cards](https://www.getcreditcardnumbers.com/generated-credit-card-numbers), [Тестовые карты - MIR, первая карта](https://developer.rbk.money/docs/payments/refs/testcards/), 3 выдуманных номера карт MIR
+1. код реализующий функциональность валидации номера банковской карты
+2. данные [Generated credit cards](https://www.getcreditcardnumbers.com/generated-credit-card-numbers), [Тестовые карты - MIR, первая карта](https://developer.rbk.money/docs/payments/refs/testcards/), 3 выдуманных номера карт MIR
+
 
 
 - American Express, 342769013816514 - FAIL
